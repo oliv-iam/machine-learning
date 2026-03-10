@@ -1,0 +1,48 @@
+Column Descriptions:
+
+MBl: Mandible length
+BEl: Eye length 
+VEp: Ventral fin opening position
+REs: Dorsal fin spine length
+OGp: Gill opening position
+RMl: Pectoral fin length 
+BLs: Body shape (length/width ratio)
+PFv: Pectoral fin position 
+PFs: Pectoral fin shape 
+CPt: Caudal peduncle type 
+Order: Taxonomic classification at order level
+
+Orders:
+
+Gymnotiformes
+Gadiformes
+Synbranchiformes
+Gonorynchiformes
+Ophidiiformes
+Elopiformes
+Clupeiformes
+Acipenseriformes
+Esociformes
+Gasterosteiformes
+Tetraodontiformes
+Amiiformes
+Osmeriformes
+Perciformes
+Polypteriformes
+Lepisosteiformes
+Salmoniformes
+Siluriformes
+Atheriniformes
+Cyprinodontiformes
+Syngnathiformes
+Osteoglossiformes
+Batrachoidiformes
+Percopsiformes
+Characiformes
+Anguilliformes
+Pleuronectiformes
+Gobiesociformes
+Scorpaeniformes
+Mugiliformes
+Cypriniformes
+Beloniformes
