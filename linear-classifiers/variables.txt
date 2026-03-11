@@ -1,0 +1,41 @@
+Connectivity:
+- 'TRACT_FIPS10': Census 2010 tract FIPS code
+- 'N_STREETS': # street segments in census tract
+- 'SUM_STRINTLEN': Length of street segments within tract (meters)
+- 'N_NODES': # nodes in ZCTA
+- 'N_REALNODES': # real nodes (nodes at 3- or 4-way intersections)
+- 'N_BLOCKS': # census blocks in ZCTA
+- 'TRACT_AREA_SQMILES': Census tract area (square miles)
+- 'LINKNODERATIO': Link/node ratio (n_streets / n_nodes)
+- 'INTDENSITY': Intersection density (n_realnodes / tract_area_sqmiles)
+- 'STRNETDENSITY': Street network density (sum_strinlen / tract_area_sqmiles)
+- 'CONNODERATIO': Connected node ratio (n_realnodes / n_nodes)
+- 'BLOCKDENSITY': Block density (n_blocks / tract_area_sqmiles)
+- 'AVGBLOCKLENGTH': Average block length: mean length of streets in tract
+- 'MEDBLOCKLENGTH': Median block length: median length of streets in tract
+- 'GAMMA': Gamma index: # links in tract / max possible links
+- 'ALPHA': Alpha index: # circuits / max # circuits
+
+Urbanicity:
+- 'TRACT_FIPS10': Census 2010 tract FIPS code
+- 'TOT_POP_CENSUS': Total population, 2010 (urban_pop + rural_pop)
+- 'URBAN_POP': Total urban population, 2010 (ua_pop + uc_pop)
+- 'UA_POP': Total urban population within urbanized areas, 2010
+- 'UC_POP': Total urban population inside urban clusters, 2010
+- 'RURAL_POP': Total rural population, 2010
+- 'TRACT_URBAN_PCT': Proportion of tract population within urban areas (urban_pop / tot_pop_census)
+- 'TRACT_RURAL_PCT': Proportion of tract population within rural areas (rural_pop / tot_pop_census)
+- 'URBANICITY': Three-category urbanicity variable based on tract_urban_pct (1: <=25%, 2: 25-75%)
+- 'TOT_POP_RUCA': Tract total population, 2010
+- 'LAND_AREA_SQMILES': Land area (square miles)
+- 'POP_DENSITY': Population density (square miles), 2010
+- 'RUCA_PRIMARY_2010': Primary RUCA code, 2010
+- 'RUCA_SECONDARY_2010': Secondary RUCA code, 2010
+- 'RUCA_SECONDARYX10_2010': Secondary RUCA code(*10, for value labels), 2010
+- 'RUCA4': Four-category urbanicity scale
+- 'RUCA7': Seven-category urbanicity scale
+
+Polluting:
+- 'TRACT_FIPS10': Census 2010 tract FIPS code
+- 'YEAR': Year of EPA TRI report
+- 'COUNT_TRI_FACILITIES': Tract count of EPA Toxics Release Inventory Facilities
